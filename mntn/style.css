@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html,
+footer {
+    background-color: #0B1D26;
+    color: #FFFFFF;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body,
+h3,
+h4,
+h5,
+H6 {
+    font-family: 'Asap', sans-serif;
+}
+
+h1,
+h2,
+nav a:first-child,
+footer div:first-child a {
+    font-family: 'Noto Serif Display', serif;
+}
+
+nav a:first-child,
+footer div:first-child a {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    padding-top: 8%;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 100%;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+i {
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    padding: 1% 5%;
+    position: fixed;
+    width: 100%;
+}
+
+nav,
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-image: url(assets/background.jpg);
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav ul {
+    width: 20%;
+}
+
+.socialNetwork ul,
+.headerDescr ul,
+.frames ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialNetwork ul li:first-child {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+header,
+nav,
+.socialNetwork ul {
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+section div {
+    margin: 0 6%;
+    width: 30%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button,
+.yellowColor {
+    color: #FBD784;
+}
+
+.colorGradian {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2861519607843137) 0%, rgba(11, 29, 38, 1) 20%, rgba(11, 29, 38, 1) 100%);
+}
+
+.section {
+    margin-top: 30vh;
+}
+
+img {
+    height: 60vh;
+}
+
+.footerInfo div {
+    justify-content: center;
+}
+
+.footerInfo div,
+.footerInfo {
+    display: flex;
+    width: 50%;
+}
+
+.copyright {
+    color: gray;
+    margin-top: 20%;
+    padding-bottom: 4%;
+}
