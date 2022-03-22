@@ -115,8 +115,10 @@ nav,
 }
 
 section {
+    align-items: center;
     display: flex;
     justify-content: center;
+    margin-top: 10%;
 }
 
 section div {
@@ -130,6 +132,7 @@ button {
 }
 
 h3,
+.yellowColor,
 button {
     color: #FBD784;
 }
@@ -168,13 +171,32 @@ img {
     width: 40%;
 }
 
-main {
+main section:first-child {
     background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2861519607843137) 0%, rgba(11, 29, 38, 0) 0%, rgba(7, 19, 25, 1) 0%, rgba(6, 16, 21, 1) 0%, rgba(6, 17, 22, 0.7063200280112045) 0%, rgba(6, 17, 23, 0) 1%, rgba(7, 18, 24, 0) 58%, rgba(11, 29, 38, 1) 100%);
-    margin-top: 15rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(6, 16, 21, 1) 84%, rgba(11, 29, 38, 1) 95%);
+}
+
+main {
+    margin-top: 30rem;
+}
+
+section .number {
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-end;
+    text-align: start;
+    align-content: flex-start;
+    color: gray;
+    font-size: 10rem;
+    position: absolute;
+    width: 100%;
 }
 
 .copyright {
     color: gray;
     margin-top: 50%;
+}
+
+.arrow img {
+    color: #FBD784;
 }
